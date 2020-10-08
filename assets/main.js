@@ -11,6 +11,9 @@ let D = document
           nav img {
             filter: none;
           }
+          nav img:not(.invertable) {
+            display: hidden;
+          }
 					a {
 						color: #ff7600;
 					}
