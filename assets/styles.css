@@ -147,23 +147,6 @@ nav img {
   }
 }
 
-@media (pointer: coarse) and (orientation: landscape) {
-  section {
-		width: 60vw;
-	}
-	nav a {
-		font-size: 4vw;
-	}
-  nav img {
-    height: 40px;
-    padding-top: 1vh;
-  }
-  .topright {
-    position: fixed;
-    top: 1vh;
-    right: 1vw;
-  }
-}
 
 @media (prefers-color-scheme: light) {
   body {
