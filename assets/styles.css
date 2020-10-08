@@ -126,7 +126,7 @@ nav img {
   }
 }
 
-@media (pointer:coarse) and (orientation: portrait) {
+@media (pointer:coarse) {
 	section {
 		width: 75vw;
 		font-size: 2.5em;
