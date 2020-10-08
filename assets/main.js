@@ -8,6 +8,9 @@ let D = document
 						background-color: #eee;
 						color: black;
 					}
+          nav img {
+            filter: none;
+          }
 					a {
 						color: #ff7600;
 					}
