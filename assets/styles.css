@@ -126,7 +126,7 @@ nav img {
   }
 }
 
-@media (pointer:coarse) {
+@media (pointer:coarse) and (orientation: portrait) {
 	section {
 		width: 75vw;
 		font-size: 2.5em;
@@ -144,6 +144,24 @@ nav img {
   nav img {
     height: 10vh;
     padding-top: 2vh;
+  }
+}
+
+@media (pointer: coarse) and (orientation: landscape) {
+  section {
+		width: 60vw;
+	}
+	nav a {
+		font-size: 4vw;
+	}
+  nav img {
+    height: 40px;
+    padding-top: 1vh;
+  }
+  .topright {
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
   }
 }
 
