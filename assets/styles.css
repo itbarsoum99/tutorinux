@@ -119,7 +119,11 @@ nav img {
 	}
 	nav a {
 		font-size: 4vw;
-	}  
+	}
+  nav img {
+    height: 40px;
+    padding-top: 1vh;
+  }
 }
 
 @media (pointer:coarse) {
@@ -136,6 +140,11 @@ nav img {
   .topright {
     margin-top: 5vw;
     padding-left: 1vw;
+  }
+  nav img {
+    height: 10vh;
+    padding-top: 2vh;
+  }
 }
 
 @media (prefers-color-scheme: light) {

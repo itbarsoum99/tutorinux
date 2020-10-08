@@ -15,7 +15,7 @@ let D = document
             display: hidden;
           }
 					a {
-						color: #ff7600;
+						color: #ff7622 !important;
 					}
 					section {
 						background-color: #dcdcdc;
