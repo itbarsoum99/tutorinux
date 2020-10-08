@@ -147,7 +147,7 @@ nav img {
 }
 
 
-@media (prefers-color-scheme: light) {
+/*@media (prefers-color-scheme: light) {
   body {
 	  background-color: #eee;
 	  color: black;
@@ -177,4 +177,4 @@ nav img {
   .light-mode section {
     background-color: #232323;
   }
-}
+}*/
