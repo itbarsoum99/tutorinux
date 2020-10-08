@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+
+body {
+	background-color: #111;
+	color: white;
+	font-family: 'Source Code Pro', 'Courier New', monospace;	
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+i {
+	font-weight: 600;
+	color: lightblue !important;
+	font-style: normal;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: orange;
+	vertical-align: middle;
+	font-size: 3vw;
+  padding-bottom: 3vh;
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+}
+
+
+nav {
+	text-align: center;
+	margin: 1vw;
+	height: 10vh;
+  position: relative;
+}
+
+
+#mode:hover {
+  cursor:pointer;
+}
+
+fade {
+	opacity: 40%;
+}
+
+section {
+	padding: 5px;
+	background-color: #232323;
+	text-align: center;
+	font-size: 1em;
+	width: 30vw;
+	margin-left: 5px;
+	padding: 10px;
+	margin: auto;
+	border-radius: 20px;
+  margin-bottom: 2vh;
+	align-items: center;
+}
+
+#thefirstone {
+  box-shadow: 10px 10px grey;
+}
+
+.light-mode {
+	background-color: #eee;
+	color: black;
+}
+
+.light-mode a {
+	color: #ff7600;
+}
+
+.light-mode section {
+	background-color: #dcdcdc;
+}
+
+.light-mode i {
+  color: navy !important;
+}
+
+#mode {
+  text-align: right !important;
+}
+
+li {
+	text-align: left !important;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap !important;
+	flex-wrap: wrap;
+	flex-align: center;
+}
+
+@media screen and (pointer: fine) and (min-width: 750px) {
+  .topright {
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
+  }
+}
+
+@media (max-width: 750px) {
+	section {
+		width: 60vw;
+	}
+	nav a {
+		font-size: 4vw;
+	}  
+}
+
+@media (pointer:coarse) {
+	section {
+		width: 75vw;
+		font-size: 2.5em;
+	}
+	nav a {
+		font-size: 5.7vw;
+	}
+  body {
+    font-family: 'Courier New', monospace;	
+  }
+  .topright {
+    margin-top: 5vw;
+    padding-left: 1vw;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+	  background-color: #eee;
+	  color: black;
+  }
+
+  a {
+	  color: #ff7600;
+  }
+
+  section {
+	  background-color: #dcdcdc;
+  }
+
+  i {
+    color: navy !important;
+  }
+  .light-mode {
+    background-color: #111;
+    color: white;
+  }
+  .light-mode a {
+    color: orange;
+  }
+  .light-mode i {
+    color: lightblue !important;
+  }
+  .light-mode section {
+    background-color: #232323;
+  }
+}
