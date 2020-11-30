@@ -23,6 +23,9 @@ let D = document
 					i {
 						color: navy !important;
 					}
+          ::selection {
+            background-color: grey;
+          }
 					`
 					D.head.appendChild(sheet)
 					localStorage.inverted = 'true'

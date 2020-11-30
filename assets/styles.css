@@ -10,6 +10,11 @@ body {
   scrollbar-width: none;
 }
 
+h1 {
+  font-size: 37px;
+}
+
+
 i {
 	font-weight: 600;
 	color: lightblue !important;
@@ -69,6 +74,11 @@ section {
   box-shadow: 10px 10px grey;
 }
 
+::selection {
+  background-color: lightgrey;
+  color: black;
+}
+
 .light-mode {
 	background-color: #eee;
 	color: black;
@@ -125,6 +135,9 @@ nav img {
     height: 40px;
     padding-top: 1vh;
   }
+  .topright {
+    display: none;
+  }
 }
 
 @media (pointer:coarse) {
@@ -139,8 +152,7 @@ nav img {
     font-family: 'Courier New', monospace;	
   }
   .topright {
-    margin-top: 8vw;
-    padding-left: 1vw;
+    display: none;
   }
   nav img {
     height: 5vh;
